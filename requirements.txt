@@ -1,0 +1,9 @@
+langchain
+langchain-core
+langchain-mistralai
+python-dotenv
+streamlit
+PyPDF2
+pandas
+
+-e .
