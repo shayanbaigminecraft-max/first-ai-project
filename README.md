@@ -2,13 +2,18 @@
 
 An AI chatbot project built with Python.
 
+## enviroment creation 
+
+``` conda create -n first-ai python=3.11 -y ```
+
 ## Features
 
 - AI Chatbot
 - FastAPI Backend
 - LangChain Integration
-- OpenAI API
+- Mistralai API
 - Modular Project Structure
+
 
 ## Installation
 
@@ -21,6 +26,13 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
+``` pip install ipykernal ```
+``` git init #if you are not cloning initialize it
+    git add .
+    git commit -m "meaage"
+    git push -f origim main
+ ```
+
 
 ## Author
 
