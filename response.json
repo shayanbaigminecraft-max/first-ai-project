@@ -1,0 +1,25 @@
+ 
+{
+  "quiz": [
+    {
+      "MCQS": "Question 1",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correct_answer": "B"
+    },
+    {
+      "MCQS ": "Question 2",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correct_answer": "C"
+    }
+  ]
+}
