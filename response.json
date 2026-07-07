@@ -2,7 +2,7 @@
 {
   "quiz": [
     {
-      "MCQS": "Question 1",
+      "MCQS number and question ": "Question 1", "question": "What is the capital of France?",
       "options": {
         "A": "Option A",
         "B": "Option B",
@@ -12,7 +12,7 @@
       "correct_answer": "B"
     },
     {
-      "MCQS ": "Question 2",
+      "MCQS number and question ": "Question 2", "question": "What is the capital of pakistan?",
       "options": {
         "A": "Option A",
         "B": "Option B",
