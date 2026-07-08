@@ -1,11 +1,11 @@
 MCQ,Choices,Correct Answer
-What is the primary purpose of generative AI models?,A: To store large datasets | B: To generate new data based on learned patterns from training data | C: To classify existing data into categories | D: To delete outdated information,B
-Which architecture forms the basis of large language models (LLMs) in generative AI?,A: Recurrent Neural Networks (RNNs) | B: Convolutional Neural Networks (CNNs) | C: Transformer architecture | D: Support Vector Machines (SVMs),C
-Which of the following is NOT a generative AI application mentioned in the text?,A: ChatGPT | B: DALL-E | C: Tesla Autopilot | D: Midjourney,C
-In which sector has generative AI NOT been explicitly mentioned as being used?,A: Healthcare | B: Agriculture | C: Entertainment | D: Finance,B
-What negative impact of generative AI is highlighted in the text regarding intellectual property?,A: Models are trained on copyrighted works without permission | B: Models refuse to generate copyrighted content | C: Models delete copyrighted data automatically | D: Models encrypt copyrighted works,A
-Which concept introduced by Andrey Markov in 1906 contributed to early generative AI?,A: Neural networks | B: Markov chain | C: Genetic algorithms | D: Decision trees,B
-What was the name of Harold Cohen's pioneering computer program for generating paintings?,A: DeepDream | B: AARON | C: AlphaGo | D: SketchRNN,B
-What environmental concern is associated with large-scale data centers used for generative AI?,A: Excessive use of paper | B: High energy consumption and electronic waste | C: Noise pollution | D: Deforestation,B
-Which of the following was a use case for generative AI planning systems in the 1990s?,A: Generating social media posts | B: Creating crisis action plans for military use | C: Designing video game graphics | D: Predicting stock market trends,B
-What form of input do generative AI models often use to generate new data?,A: Binary code | B: Natural language prompts | C: Handwritten notes | D: Morse code,B
+What is Generative AI primarily used for?,"A: Analyzing historical data only | B: Generating new data such as text, images, videos, or audio | C: Performing manual calculations | D: Storing large datasets without processing",B
+Which architecture forms the basis of large language models (LLMs) in Generative AI?,A: Recurrent Neural Network (RNN) | B: Transformer architecture | C: Convolutional Neural Network (CNN) | D: Support Vector Machine (SVM),B
+Which of the following is NOT a Generative AI application mentioned in the text?,A: ChatGPT | B: DALL-E | C: Siri | D: Midjourney,C
+"In which sectors has Generative AI been used, according to the text?","A: Agriculture and mining | B: Software development, healthcare, and finance | C: Construction and real estate | D: Transportation and logistics",B
+What is a major ethical concern associated with Generative AI?,A: High computational speed | B: Training models on copyrighted works without permission | C: Limited accessibility to the public | D: Over-reliance on human input,B
+Which concept introduced by Andrey Markov in 1906 is mentioned as an early influence on generative models?,A: Neural networks | B: Markov chain | C: Genetic algorithms | D: Decision trees,B
+What was the purpose of the AARON program developed by Harold Cohen?,A: Generating music compositions | B: Autonomously creating paintings | C: Simulating weather patterns | D: Translating languages,B
+What environmental impact is associated with large-scale data centers used in Generative AI?,A: Reduction in carbon emissions | B: High energy consumption and electronic waste | C: Increased biodiversity | D: Lower water usage,B
+Which of the following was a use case for generative AI planning systems in the 1990s?,A: Social media content moderation | B: Generating crisis action plans for military use | C: Automating household chores | D: Predicting stock market trends,B
+What type of input is commonly used to generate new data in Generative AI models?,A: Binary code | B: Natural language prompts | C: Handwritten notes | D: Mathematical equations,B
