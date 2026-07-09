@@ -21,10 +21,18 @@ llm = ChatMistralAI(
     temperature=1,
 )
 
-with open("../../response.json", "r") as f:
-    response = json.load(f)
+BASE_DIR = os.path.dirname(
+    os.path.dirname(
+        os.path.dirname(os.path.abspath(__file__))
+    )
+)
 
-    print(response)
+response_path = os.path.join(BASE_DIR, "response.json")
+
+with open(response_path, "r") as f:
+    RESPONSE_JSON = json.load(f)
+
+    print(RESPONSE_JSON)
 
 template = """
 You are an expert MCQ creator with strong knowledge of educational assessment.
