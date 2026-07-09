@@ -117,3 +117,4 @@ def gen_mcq(text, number, subject, tone):
     })
 
     return quiz.content, review.content
+

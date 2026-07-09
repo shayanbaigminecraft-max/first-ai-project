@@ -25,6 +25,28 @@ def read_file(file):
         print("Error reading file:", e)
         raise
 
+def get_table_data(quiz_dict):
+    quiz_table_data = []
 
-def get_table_data():
-    pass
+    for value in quiz_dict["quiz"]:
+
+        mcq = value["question"]
+
+        options = " | ".join(
+            [
+                f"{option}: {option_value}"
+                for option, option_value in value["options"].items()
+            ]
+        )
+
+        correct = value["correct_answer"]
+
+        quiz_table_data.append(
+            {
+                "MCQ": mcq,
+                "Choices": options,
+                "Correct Answer": correct,
+            }
+        )
+
+    return quiz_table_data

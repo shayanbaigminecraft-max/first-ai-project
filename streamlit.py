@@ -37,12 +37,18 @@ with st.form("my_form"):
                     #read the uploaded file
                     text = read_file(file)
                     #generate mcqs
-                    quiz , review = gen_mcq(text, number, subject, tone)
-                    #display the generated mcqs
+                    quiz, review = gen_mcq(text, number, subject, tone)
+                    
+                    quiz = quiz.replace("```json", "").replace("```", "").strip()
+                    quiz_dict = json.loads(quiz)
+
+                    table = get_table_data(quiz_dict)
+
                     st.success("MCQs generated successfully!")
                     st.subheader("Generated MCQs")
-                    st.write(quiz)
-              
+                    df = pd.DataFrame(table)
+                    st.table(df)
+
                 except Exception as e:
                     logging.error(traceback.format_exc())
 
