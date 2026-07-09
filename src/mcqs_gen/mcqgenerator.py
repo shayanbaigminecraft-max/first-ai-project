@@ -108,7 +108,7 @@ def gen_mcq(text, number, subject, tone):
         "number": number,
         "subject": subject,
         "tone": tone,
-        "response": json.dumps(response)
+       "response": json.dumps(RESPONSE_JSON)
     })
 
     review = chain2.invoke({
