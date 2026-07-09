@@ -8,9 +8,6 @@ import streamlit as st
 from src.mcqs_gen.mcqgenerator import gen_mcq
 from src.mcqs_gen.logger import logging
 
-#loading json file
-with open("response.json", "r") as f:
-    response = json.load(f)
 
 #title of the app
 st.title("MCQ Generator by Shayan Baig")
@@ -40,12 +37,14 @@ with st.form("my_form"):
                     #read the uploaded file
                     text = read_file(file)
                     #generate mcqs
-                    quiz , review = gen_mcq(text, subject, tone, number)
+                    quiz , review = gen_mcq(text, number, subject, tone)
                     #display the generated mcqs
                     st.success("MCQs generated successfully!")
                     st.subheader("Generated MCQs")
                     st.write(quiz)
+              
                 except Exception as e:
-                    logging.error(f"Error generating MCQs: {e}")
-                    st.error(f"Error generating MCQs: {e}")
-            
+                    logging.error(traceback.format_exc())
+
+                    st.error(str(e))
+                    st.code(traceback.format_exc())
