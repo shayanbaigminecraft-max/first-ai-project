@@ -92,12 +92,20 @@ prompt2 = PromptTemplate (
 
 chain2 = prompt2 | llm 
 
-with open("../data.txt", "r") as f:
-    text = f.read()
 
-text 
-numbers = 10 
-subject = "AI"
-tone = "medium"
-response_json = response
+def gen_mcq(text, number, subject, tone):
 
+    quiz = chain1.invoke({
+        "text": text,
+        "number": number,
+        "subject": subject,
+        "tone": tone,
+        "response": json.dumps(response)
+    })
+
+    review = chain2.invoke({
+        "subject": subject,
+        "quiz": quiz.content
+    })
+
+    return quiz.content, review.content
