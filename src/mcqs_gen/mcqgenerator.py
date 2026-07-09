@@ -21,7 +21,7 @@ llm = ChatMistralAI(
     temperature=1,
 )
 
-with open("../response.json", "r") as f:
+with open("../../response.json", "r") as f:
     response = json.load(f)
 
     print(response)
