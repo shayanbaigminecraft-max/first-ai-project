@@ -5,5 +5,3 @@ python-dotenv
 streamlit
 PyPDF2
 pandas
-
--e .
